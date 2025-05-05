@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.left-box {
+
+    background-color: #262525;
+    width: 80%;
+    height: 100vh;
+    color: aliceblue;
+    padding-left: 12rem;
+    align-content: center;
+
+
+
+}
+
+.left-name {
+    font-size: 1.6rem;
+    margin-top: 20px;
+}
+
+.left-name span {
+    color: #5DB9EE;
+}
+
+.left-detail {
+    color: #5DB9EE;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+h1:hover {
+
+    color: white;
+
+
+}
+
+.intro {
+    max-width: 700px;
+    font-size: 1.1rem;
+
+}
+
+a {
+    display: inline-block;
+    padding: 6.6px 16px;
+    background-color: #5DB9EE;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+
+
+}
+
+
+.btn {
+    color: white;
+    margin: 3px;
+}
+
+button:nth-child(even) {
+    background-color: #5DB9EE;
+}
+
+button:nth-child(odd) {
+    background-color: transparent;
+    border: 2px solid #5DB9EE;
+}
+
+.Right-box {
+
+    background: linear-gradient(-45deg, #3877FF, #262525 70%);
+    width: 30%;
+    height: 100vh;
+
+
+}
+
+.circle {
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 79.4.1%;
+    transform: translate(-50%, -50%);
+}
+
+.circle:nth-child(1) {
+    background: linear-gradient(90deg, transparent 50%, #262525 50%);
+    width: 30rem;
+}
+
+.circle:nth-child(2) {
+
+    width: 25rem;
+    background-image: url(images/IMG-20201209-WA0019.jpg);
+    background-size: 170%;
+    background-position: center;
+    border: 11px solid white;
+    box-shadow: 0 0 1rem #fff,
+        inset 0 0 1rem #fff,
+        0 0 2rem #3877FF,
+        inset 0 0 2rem #3877FF,
+        inset 0 0 4rem #3877FF,
+        0 0 4rem #3877FF;
+
+
+
+
+}
+
+.work-main {
+    background: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+
+}
+
+
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+
+.shadow-white {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.shadow-white:hover {
+    box-shadow: 0 0 35px rgba(255, 255, 255, 0.3);
+}
+
+.card {
+    background-color: #1f1f1f;
+    border: none;
+    border-radius: 12px;
+    color: white;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-title h5 {
+    margin-bottom: 0.5rem;
+}
+
+.card-title
+{
+    margin-left: 10px;
+}
+
+.project-desc {
+    font-size: 0.95rem;
+    color: #ccc;
+}
+
+.btn-contact
+{
+    background-color: #5DB9EE !important;
+    border: none;
+   
+}
+
+.list-unstyled
+{
+    color: white;
+    ;
+}
+
